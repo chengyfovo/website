@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>琴伴</title>
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/iconfont.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script>
+    $(function() {
+      let top = $(".register").offset().top
+      $(window).scroll(function () {
+        if ($(window).scrollTop() >= top) {
+          $(".register").attr("style", "position:fixed;top:0;z-index:10;");
+          $(".menu").attr("style","position:fixed;top:319px;right:18px")
+        } else {
+          $(".register").attr("style", "");
+          $(".menu").attr("style","")
+        }
+      })
+    });
+  </script>-->
+  <script>
+
+  </script>
+</head>
+<body>
+<div class="body">
+  <!--导航-->
+  <header>
+    <!--视频-->
+    <div class="header-video">
+      <video src="./images/video_loop_small.mp4" autoplay muted loop></video>
+    </div>
+    <!--背景遮罩-->
+    <div class="header-img">
+      <img src="./images/mask_video_shape.png" alt="">
+      <div class="header-img__right"></div>
+    </div>
+    <!--导航栏菜单-->
+    <div class="header-menu">
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><div class="header-menu__dot"></div><a href="#">教学理念</a></li>
+        <li><div class="header-menu__dot"></div><a href="#">品牌优势</a></li>
+        <li><div class="header-menu__dot"></div><a href="#">师资保障</a></li>
+        <li><div class="header-menu__dot"></div><a href="#">郑重承诺</a></li>
+        <li><div class="header-menu__dot"></div><a href="#">使用帮助</a></li>
+        <li><div class="header-menu__dot"></div><a href="#">下载客户端</a></li>
+      </ul>
+    </div>
+    <!--标题-->
+    <div class="header-title">
+      <h4>琴伴在线钢琴陪练</h4>
+      <h1>让孩子爱上练琴</h1>
+    </div>
+    <!--视频-->
+    <div class="header-play">
+      <span class="icon iconfont">&#xe626;</span>
+      <p><a href="#">观看完整视频</a></p>
+    </div>
+    <!--注册栏-->
+    <div class="header-register">
+      <div class="block1">
+        <input placeholder="宝贝的姓名">
+      </div>
+      <div class="block1" style="margin-left: 4.44%">
+        <input placeholder="您的手机号">
+      </div>
+      <div class="block2">
+        <h6>免费领取45分钟一对一体验课</h6>
+      </div>
+    </div>
+  </header>
+  <!--主体-->
+  <main>
+    <!--第一块-->
+    <div class="main1">
+      <!--文字-->
+      <div class="main1-text">
+        <h2>琴伴，你身边的练琴专家</h2>
+        <p>琴伴在线陪练致力于让每个孩子都能养成良好的练琴习惯，从练琴中得到快乐。我们希望能陪伴和帮助孩子度过从“知道”到“做到”这个漫长枯燥的过程，让孩子体会练习带来的成就感和乐趣，感受音乐之美，成为爱乐者。</p>
+      </div>
+      <!--图片列表-->
+      <div class="main1-picture">
+        <div class="main1-picture__pic">
+          <img class="main1-picture__img1" src="images/icon_detail.png" alt="">
+          <img class="img" src="images/1440/image_detail_big.png" alt=""
+               srcset="images/1440/image_detail_big.png 1440w, images/1366/image_detail_small.png 600w">
+          <h5>严抓细节，保证效果</h5>
+        </div>
+        <div class="main1-picture__pic">
+          <img class="main1-picture__img2" src="images/icon_efficiency.png" alt="">
+          <img class="img" src="images/1440/image_efficiency_big.png" alt=""
+               srcset="images/1440/image_efficiency_big.png 1440w, images/1366/image_efficiency_small.png 600w">
+          <h5>因材施教，科学高效</h5>
+        </div>
+        <div class="main1-picture__pic">
+          <img class="main1-picture__img3" src="images/icon_growth.png" alt="">
+          <img class="img" src="images/1440/image_growth_big.png" alt=""
+               srcset="images/1440/image_growth_big.png 1440w, images/1366/image_growth_small.png 600w">
+          <h5>见证成长，分享快乐</h5>
+        </div>
+      </div>
+      <!--贴图-->
+      <img class="main1-img1" src="images/triangle.png" alt="">
+      <img class="main1-img2" src="images/icon_efficiency.png" alt="">
+      <img class="main1-img3" src="images/icon_growth.png" alt="">
+      <img class="main1-img4" src="images/icon_detail.png" alt="">
+    </div>
+    <!--第二块-->
+    <div class="main2">
+      <!--背景-->
+      <img class="main2-img1" src="images/background1.png" alt="">
+      <img class="main2-img2" src="images/background_triangle.png" alt="">
+      <img class="main2-img3" src="images/background_semicircle.png" alt="">
+      <!--文字1-->
+      <div class="main2-text1">
+        <h2>为什么选择琴伴<img class="main2-img4" src="images/triangle.png" alt=""></h2>
+      </div>
+      <!--卡片1-->
+      <div class="main2-card">
+        <div class="main2-card__de">
+          <h1>01</h1>
+          <div class="main2-card__right"><h4>与主课教师相配套的</h4>
+            <h3>专业师资</h3></div>
+        </div>
+        <div class="main2-card__de">
+          <h1>02</h1>
+          <div class="main2-card__right"><h4>全面记录上课过程的</h4>
+            <h3>陪练报告</h3></div>
+        </div>
+        <div class="main2-card__de">
+          <h1>03</h1>
+          <div class="main2-card__right"><h4>灵活便捷的</h4>
+            <h3>约课系统</h3></div>
+        </div>
+        <div class="main2-card__de">
+          <h1>04</h1>
+          <div class="main2-card__right"><h4>覆盖全键盘的</h4>
+            <h3>双向音视频</h3></div>
+        </div>
+        <!--卡片2-->
+        <div class="main2-card2">
+          <h1>05</h1>
+          <h4>家长说</h4>
+          <h3>在线陪练的最佳选择</h3>
+        </div>
+      </div>
+      <!--文字2-->
+      <div class="main2-text2">
+        <p>老师的点评都很有针对性，还会给孩子示范，现在练半小时比之前练一个小时的效果都好。</p>
+      </div>
+      <!--文字2-->
+      <div class="main2-text3">
+        <p>之前练琴前要磨蹭很久，也坐不住凳子，有了陪练老师之后孩子天天主动坐在钢琴前面，让我也轻松很多。</p>
+      </div>
+    </div>
+    <!--第三块-->
+    <div class="main3">
+      <!--文字-->
+      <div class="main3-text">
+        <h2>在这里</h2>
+        <h2>找到最适合你的陪练教师</h2>
+      </div>
+      <div class="main3-second">
+        <!--贴图-->
+        <div class="main3-img">
+          <img class="main3-img1" src="images/1440/head1_big.png" alt=""
+               srcset="images/1440/head1_big.png 1440w, images/1366/head1_big.png 600w">
+          <img class="main3-img2" src="images/1440/head2_big.png" alt=""
+               srcset="images/1440/head2_big.png 1440w, images/1366/head2_big.png 600w">
+          <img class="main3-img3" src="images/1440/head3_big.png" alt=""
+               srcset="images/1440/head3_big.png 1440w, images/1366/head3_big.png 600w">
+          <img class="main3-img4" src="images/1440/head4_big.png" alt=""
+               srcset="images/1440/head4_big.png 1440w, images/1366/head4_big.png 600w">
+          <img class="main3-img5" src="images/1440/head5_big.png" alt=""
+               srcset="images/1440/head5_big.png 1440w, images/1366/head5_big.png 600w">
+          <img class="main3-img6" src="images/1440/head6_big.png" alt=""
+               srcset="images/1440/head6_big.png 1440w, images/1366/head6_big.png 600w">
+          <img class="main3-img7" src="images/1440/icon_add_orange_big.png" alt=""
+               srcset="images/1440/icon_add_orange_big.png 1440w, images/1366/icon_add_orange_big.png 600w">
+          <img class="main3-img8" src="images/1440/icon_add_blue_big.png" alt=""
+               srcset="images/1440/icon_add_blue_big.png 1440w, images/1366/icon_add_blue_big.png 600w">
+          <img class="main3-img9" src="images/triangle.png" alt="">
+          <div class="main3-img10"></div>
+        </div>
+        <!--图片列表-->
+        <div class="main3-picture">
+          <div class="main3-picture-card" style="margin-top: 105px;">
+            <img src="images/1440/image_interview_big.png" alt=""
+                 srcset="images/1440/image_interview_big.png 1440w, images/1366/image_interview_big.png 600w">
+            <div class="main3-picture-card__text">
+              <h4>层层筛选</h4>
+              <p>专业院校背景，少儿教学经验丰富，多轮面试择优录用</p>
+            </div>
+          </div>
+          <div class="main3-picture-card">
+            <img src="images/1440/image_training_big.png" alt=""
+                 srcset="images/1440/image_training_big.png 1440w, images/1366/image_training_big.png 600w">
+            <div class="main3-picture-card__text">
+              <h4>严格培训</h4>
+              <p>均通过系统性标准化培训，为您提供最好的学习体验</p>
+            </div>
+          </div>
+          <div class="main3-picture-card">
+            <img src="images/1440/image_assessment_big.png" alt=""
+                 srcset="images/1440/image_assessment_big.png 1440w, images/1366/image_assessment_big.png 600w">
+            <div class="main3-picture-card__text">
+              <h4>考核评分</h4>
+              <p>学生和主管双重考核，反馈快速响应</p>
+            </div>
+          </div>
+          <div class="main3-picture-card">
+            <img src="images/1440/image_communication_big.png" alt=""
+                 srcset="images/1440/image_communication_big.png 1440w, images/1366/image_communication_big.png 600w">
+            <div class="main3-picture-card__text">
+              <h4>无缝对接</h4>
+              <p>和主课老师密切沟通，进度衔接紧密，课堂知识无遗漏</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--第四块-->
+    <div class="main4">
+      <div class="main4-line">
+        <div class="main4-card card1">
+          <img src="images/1440/icon_refund_big.png" alt=""
+               srcset="images/1440/icon_refund_big.png 1440w, images/1366/icon_refund_big.png 600w">
+          <div class="main4-card__text">
+            <h4>无忧退款</h4>
+            <p>对陪练教师或上课效果不满意可随时退款</p>
+          </div>
+        </div>
+        <div class="main4-card card2">
+          <img src="images/1440/icon_service_big.png" alt=""
+               srcset="images/1440/icon_service_big.png 1440w, images/1366/icon_service_big.png 600w">
+          <div class="main4-card__text">
+            <h4>全程专属服务</h4>
+            <p>专属课程顾问全程五星级贴心服务，为学生匹配陪练教师，解答各类问题</p>
+          </div>
+        </div>
+        <div class="main4-card card3">
+          <img src="images/1440/icon_contract.png" alt=""
+               srcset="images/1440/icon_contract.png 1440w, images/1366/icon_contract.png 600w">
+          <div class="main4-card__text">
+            <h4>协议保障</h4>
+            <p>服务协议条款公开透明，明确表明学生享受的各项服务，切实保护学员利益</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--第五块-->
+    <div class="main5">
+      <!--背景图块-->
+      <img class="main5-img1" src="images/background2.png" alt="">
+      <img class="main5-img2" src="images/background3.png" alt="">
+      <img class="main5-img3" src="images/background4.png" alt="">
+      <!--轮播图-->
+      <div class="main5-picture">
+        <h2><img src="images/triangle.png" alt="">使用有问题？看这里</h2>
+        <div class="main5-picture__de"></div>
+      </div>
+      <!--下半部分-->
+      <div class="main5-second">
+        <!--左下-->
+        <div class="main5-second__left">
+          <div class="main5-second__left-text1">
+            <h4>快速链接</h4>
+            <ul>
+              <li><a href="#">机构端</a></li>
+              <li><a href="#">服务协议</a></li>
+              <li><a href="#">隐私条款</a></li>
+            </ul>
+          </div>
+          <div class="main5-second__left-text2">
+            <h4>联系我们</h4>
+            <p>地址：上海市浦东新区纳贤路800号科海大楼A座401-21</p>
+            <p>邮箱：iqinban@sh-intellilink.cn</p>
+            <p>电话：021-60535238</p>
+          </div>
+        </div>
+        <!--右下-->
+        <div class="main5-second__right">
+          <h2><img src="images/triangle.png" alt="">下载学生端</h2>
+          <div class="main5-second__right-se">
+            <div class="main5-second__pic">
+              <img src="images/QRcode.jpg" alt="">
+              <div class="main5-second__button" style="background-color: #ffd90d">
+                <h4>琴伴一对一</h4>
+              </div>
+            </div>
+            <div class="main5-second__pic">
+              <img src="images/QRcode.jpg" alt="">
+              <div class="main5-second__button" style="background-color: #ee7c68">
+                <h4>琴伴小班课</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--信息-->
+        <div class="main5-second__tips">
+          <p>© 上海智凌信息技术有限公司   沪ICP备15032675号-2</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
